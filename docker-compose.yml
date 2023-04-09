@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  postgres:
+    image: postgres:13.3
+    environment:
+      POSTGRES_DB: "bored"
+      POSTGRES_USER: "springuser"
+      POSTGRES_PASSWORD: "spring"
+
+    ports:
+      - "5432:5432"

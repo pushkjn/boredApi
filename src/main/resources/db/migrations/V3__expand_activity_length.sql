@@ -1,0 +1,2 @@
+ALTER TABLE bored
+    ALTER COLUMN activity TYPE VARCHAR(100);
